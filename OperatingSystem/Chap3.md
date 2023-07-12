@@ -145,4 +145,4 @@ TEST IO: 입출력 장치 상태 확인 <br>
 
 > **스택과 큐**
 - 스택: LIFO(Last In First Out, 후입선출)
-- 큐: FIFO(First In First Out, tjsdlqtjscnf)
+- 큐: FIFO(First In First Out, 선입선출)
