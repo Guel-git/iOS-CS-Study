@@ -4,7 +4,7 @@
 - [Chap1. 컴퓨터 구조 시작하기](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap1.md)
 - [Chap2. 데이터](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap2.md)
 - [Chap3. 명령어](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap3.md)
-- [Chap4. ]()
+- [Chap4. CPU의 동작 원리](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap4.md)
 - [Chap5. CPU 성능 향상 기법](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap5.md)
   
 ## 네트워크
