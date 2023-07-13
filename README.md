@@ -6,6 +6,8 @@
 - [Chap3. 명령어](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap3.md)
 - [Chap4. CPU의 동작 원리](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap4.md)
 - [Chap5. CPU 성능 향상 기법](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap5.md)
+- [Chap6]()
+- [Chap7. 보조기억장치](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap7.md)
   
 ## 네트워크
 
