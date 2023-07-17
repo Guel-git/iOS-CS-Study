@@ -10,6 +10,7 @@
 - [Chap7. 보조기억장치](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap7.md)
 - [Chap8. 입출력장치](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap8.md)
 - [Chap9. 운영체제 시작하기](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap9.md)
+- [Chap10. 프로세스와 스레드](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap10.md)
   
 ## 네트워크
 
