@@ -8,7 +8,7 @@
 - [Chap5. CPU 성능 향상 기법](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap5.md)
 - [Chap6. 메모리와 캐시 메모리](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap6.md)
 - [Chap7. 보조기억장치](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap7.md)
-- [Chap8. 입출력장치]()
+- [Chap8. 입출력장치](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap8.md)
 - [Chap9. 운영체제 시작하기](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap9.md)
   
 ## 네트워크
