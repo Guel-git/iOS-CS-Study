@@ -11,6 +11,8 @@
 - [Chap8. 입출력장치](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap8.md)
 - [Chap9. 운영체제 시작하기](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap9.md)
 - [Chap10. 프로세스와 스레드](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap10.md)
+- [Chap11. CPU 스케줄링](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap11.md)
+- [Chap12. 프로세스 동기화](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap12.md)
   
 ## 네트워크
 
