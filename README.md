@@ -13,6 +13,8 @@
 - [Chap10. 프로세스와 스레드](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap10.md)
 - [Chap11. CPU 스케줄링](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap11.md)
 - [Chap12. 프로세스 동기화](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap12.md)
+- [Chap13. 교착 상태]()
+- [Chap14. 가상 메모리](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap14.md)
   
 ## 네트워크
 
