@@ -16,7 +16,7 @@
 
 >**Swapping**
 
-<img>
+<img width="541" alt="스크린샷 2023-07-19 오후 11 00 19" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/82f0a238-18f3-45f2-82fd-c752c5d191ac">
 
 메모리에서 사용되지 않는 일부 프로세스를 보조기억장치(backing store)로 내보내고 실행할 프로세스를 메모리로 들여보내는 메모리 관리 기법
 
@@ -77,7 +77,7 @@
 
 >**페이지 테이블**
 
-<img>
+<img width="450" alt="img2" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/7a58e5c6-4dd2-4452-b89e-d6abcd33417c">
 
 물리 주소에 프로세스가 불연속적으로 할당되어도 논리 주소에는 연속적으로 배치되도록 페이지 번호와 프레임 번호를 짝지어 주는 이정표
 
@@ -93,7 +93,7 @@
 
 >**페이징에서의 주소 변환**
 
-<img>
+<img width="450" alt="img2" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/533b36d8-1634-4cad-be60-585ff8ddd960">
 
 - Page number: 접근하고자 하는 페이지 번호
 - Offset: 프레임 시작 번지로부터 떨어진 정도
@@ -104,7 +104,7 @@
 
 페이지 테이블의 각 행을 의미
 
-<img>
+<img width="541" alt="스크린샷 2023-07-20 오전 1 49 25" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/964ef635-9947-48ba-94c4-c9ed410d304b">
 
 - Vaild bit: 페이지에 접근 가능 여부를 나타냄 (메모리에 있으면 1, ❌ 0)
     - Page fault: 유효 비트가 0인 페이지에 접근하면 발생하는 예외
@@ -119,7 +119,7 @@
 
 >**페이징의 장점 - 쓰기 시 복사**
 
-<img>
+<img width="462" alt="스크린샷 2023-07-20 오전 2 41 41" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/ee974575-1c6f-443e-b826-b14454e0b5f0">
 
 - 읽는 작업만 반복된다면 부모와 자식 프로세스는 동일한 프레임을 사용하고 페이지 테이블만 따로 구성하면 됨
 - 쓰기 작업이 진행되면 해당 페이지만 복사하여 사용함 ➡️ 생성 시간 및 메모리 공간 절약
@@ -128,7 +128,7 @@
 
 >**계층적 페이징**
 
-<img>
+<img width="541" alt="스크린샷 2023-07-20 오전 1 54 39" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/7565d61f-8016-43cd-b680-5d59eb513af6">
 
 - 여러 단계의 페이지를 두는 기법으로 multilevel page table (다단계 페이지 테이블) 이라고도 함
 - 바깥 페이지 번호 | 안쪽 페이지 번호 | 변위  형태
@@ -164,21 +164,28 @@
     2 3 5 3 7 // 페이지 참조열
     ~~~
 
-1. FIFO page replacement algorithm 
-    <img>
+1. FIFO page replacement algorithm
+   
+    <img width="600" alt="스크린샷 2022-10-11 오전 12 59 57" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/b5fcca52-3fe1-40fb-9bc5-08097bf89bc1">
+
     - 가장 먼저 올라온 페이지부터 내쫒는 방식
     - 구현이 쉽지만 성능이 좋지는 않음
     - Second chance page replacement algorithm: 참조 비트를 통해 한 번 더 기회를 주는 알고리즘
     - Belady’s Anomaly: 프레임의 개수가 많아져도 page fault가 줄어들지 않는 현상
-        <img>
-2. Optimal page replacement algorithm
-    <img>
+        <img width="550" alt="스크린샷 2022-07-19 오후 11 28 30" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/ee93199f-a839-4890-96ba-8ffd27e87f1b">
+
+3. Optimal page replacement algorithm
+   
+    <img width="600" alt="스크린샷 2022-10-11 오전 12 59 47" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/144922d6-b0f1-4a51-8849-c759e1a15dae">
+
     - 가장 오랫동안 사용되지 않을 페이지를 내쫒는 방식
     - page fault가 가장 낮으며 Belady’s Anomaly 현상이 일어나지 않음
     - 구현이 어려움 ➡️ 다음 페이지를 예측하는 것은 현실적으로 불가능
     - 하한선으로 타 알고리즘의 평가를 위해 사용
-3. LRU page replacement algorithm
-    <img>
+5. LRU page replacement algorithm
+   
+    <img width="600" alt="스크린샷 2022-10-11 오전 12 59 27" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/672f7b7c-9549-46ce-9dee-32d4180b88ef">
+
     - 가장 오랫동안 사용하지 않은 페이지를 내쫒는 방식
     - 최적 알고리즘과 비슷한 성능을 내며 많은 운영체제가 채택한 알고리즘
 
@@ -188,8 +195,9 @@
 
 근본적으로 프레임의 개수가 작으면 페이지 폴트 빈도가 높음
 
+<img width="369" alt="스크린샷 2023-07-20 오전 2 20 34" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/10eaf1d9-4cf5-4f4d-9772-ba8d07880648">
+
 - Thrashing: 프로세스를 실행하는 시간보다 페이징에 더 많은 시간을 소요하여 성능이 저해되는 문제
-<img>
 - Degree of multiprogramming: 메모리에서 동시에 실행되는 프로세스의 수
 - 프로세스의 개수가 지나치게 ⬆️ ➡️ 이용 가능한 프레임 수 ⬇️ ➡️ 페이지 폴트 ⬆️ ➡️ CPU 이용률 ⬇️ 
 - 프로세스가 필요한 최소한의 프레임 수 보장해서 할당 필요
