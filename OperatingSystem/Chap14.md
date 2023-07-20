@@ -77,7 +77,7 @@
 
 >**페이지 테이블**
 
-<img width="450" alt="img2" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/7a58e5c6-4dd2-4452-b89e-d6abcd33417c">
+<img width="541" alt="스크린샷 2023-07-20 오전 1 49 25" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/964ef635-9947-48ba-94c4-c9ed410d304b">
 
 물리 주소에 프로세스가 불연속적으로 할당되어도 논리 주소에는 연속적으로 배치되도록 페이지 번호와 프레임 번호를 짝지어 주는 이정표
 
@@ -104,7 +104,7 @@
 
 페이지 테이블의 각 행을 의미
 
-<img width="541" alt="스크린샷 2023-07-20 오전 1 49 25" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/964ef635-9947-48ba-94c4-c9ed410d304b">
+<img width="450" alt="img2" src="https://github.com/Guel-git/iOS-CS-Study/assets/81340603/7a58e5c6-4dd2-4452-b89e-d6abcd33417c">
 
 - Vaild bit: 페이지에 접근 가능 여부를 나타냄 (메모리에 있으면 1, ❌ 0)
     - Page fault: 유효 비트가 0인 페이지에 접근하면 발생하는 예외
