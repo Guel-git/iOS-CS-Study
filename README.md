@@ -15,6 +15,7 @@
 - [Chap12. 프로세스 동기화](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap12.md)
 - [Chap13. 교착 상태](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap13.md)
 - [Chap14. 가상 메모리](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap14.md)
+- [Chap15. 파일 시스템](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap15.md)
   
 ## 네트워크
 
