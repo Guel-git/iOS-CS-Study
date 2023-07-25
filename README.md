@@ -16,7 +16,7 @@
 - [Chap13. 교착 상태](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap13.md)
 - [Chap14. 가상 메모리](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap14.md)
 - [Chap15. 파일 시스템](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Chap15.md)
-- [문제로 운영체제 정리하기](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Questions.md)
+- [운영체제 면접 질문 모음](https://github.com/Guel-git/iOS-CS-Study/blob/main/OperatingSystem/Questions.md)
 
 ## 네트워크
 
